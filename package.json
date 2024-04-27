@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "AI-devs-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "utils.js",
+    "moderation.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "openai": "^4.29.2"
+  }
+}
