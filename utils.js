@@ -40,7 +40,10 @@ export const sendTaskData = (token, postData) =>
 export const sendAnswer = (token, answer) =>
   axios
     .post(`${basicURL}/answer/${token}`, { answer })
-    .then(({ data }) => data)
+    .then(({ data }) => {
+      console.log(data)
+      return data
+    })
     .catch(function (error) {
       // handle error
       console.log(error)
