@@ -1,8 +1,6 @@
 import fs from 'fs'
 import { taskToken, taskData, sendAnswer } from './utils.js'
 import { openai } from './openAI.js'
-import axios from 'axios'
-import { create } from 'domain'
 
 const systemMessage = `
 Take a deep breath and work on this problem step-by-step. 
